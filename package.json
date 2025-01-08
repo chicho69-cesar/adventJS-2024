@@ -1,0 +1,28 @@
+{
+  "name": "adventjs-2024",
+  "version": "1.0.0",
+  "description": "Repositorio con los retos del AventJS 2024 por Midudev resueltos, con tests y explicacion de cada uno.",
+  "main": "index.js",
+  "scripts": {
+    "check": "npx @biomejs/biome check --apply ./src",
+    "lint": "npx @biomejs/biome lint ./src",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chicho69-cesar/adventJS-2024.git"
+  },
+  "keywords": [
+    "AdventJS"
+  ],
+  "author": "Cesar Villalobos Olmos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chicho69-cesar/adventJS-2024/issues"
+  },
+  "homepage": "https://github.com/chicho69-cesar/adventJS-2024#readme",
+  "dependencies": {
+    "@types/jest": "29.5.11",
+    "jest": "29.7.0"
+  }
+}
